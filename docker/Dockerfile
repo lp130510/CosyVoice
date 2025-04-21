@@ -1,5 +1,5 @@
 # 使用Ubuntu 22.04作为基础镜像
-FROM https://docker.1ms.run/ubuntu:22.04
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/xinghanxu/mcsm:ubuntu22.04
 
 # 设置环境变量
 ARG VENV_NAME="cosyvoice"
